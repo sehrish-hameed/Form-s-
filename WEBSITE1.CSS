@@ -1,0 +1,47 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    
+}
+
+/* Body styling */
+body {
+    background-color: rgb(157, 156, 206);
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1;
+}
+H1{
+    font: 4em sans-serif;
+    align-items: center;
+    color: purple;
+    justify-content: center;
+    display: flex;
+}
+.button{
+    font: 3em sans-serif;
+    display: flex;
+    cursor: auto;
+}
+.first{
+    font: 3em sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column; /* Aligns items vertically */
+    align-items: stretch; /* Stretches items to fill container */
+    margin: auto; /* Centers the container horizontally */
+    max-width: 500px; /* Sets a max width for the form */
+    padding: 30px;
+    background-color: white; /* White background for the form */
+    border-radius: 22px; /* Rounded corners */
+    box-shadow: 0 5px 22px rgba(0, 0, 0, 0.1); /* Adds shadow */
+}
+label {
+    margin: 20px 0; /* Adds space above and below labels */
+    font-weight: bold; /* Bold font for labels */
+    color: purple; /* Color for labels */
